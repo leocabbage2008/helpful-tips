@@ -10,6 +10,4 @@ Use services files to not clunk up your App.js. <br />
 
 If you're project is feeling mucky, just restart. <br />
 
-Devils advocate: <br />
-
-Use Math.random() when you don't have reliable keys. <br />
+Playing devils advocate, but use Math.random() when you don't have reliable keys. <br />
