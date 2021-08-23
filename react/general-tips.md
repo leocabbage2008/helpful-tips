@@ -10,4 +10,11 @@ Use services files to not clunk up your App.js. <br />
 
 If you're project is feeling mucky, just restart. <br />
 
+Template for changing a state:
+<code>
+  const [a, b] = React.useState(['hi','world']);
+  const dup = [...a]; //won't work without spread operator
+  b(dup);
+</code>
+
 Playing devils advocate, but use Math.random() when you don't have reliable keys. <br />
