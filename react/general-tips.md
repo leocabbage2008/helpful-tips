@@ -15,6 +15,6 @@ Template for changing a state:
   const [a, b] = React.useState(['hi','world']);
   const dup = [...a]; //won't work without spread operator
   b(dup);
-</code>
+</code><br />
 
 Playing devils advocate, but use Math.random() when you don't have reliable keys. <br />
